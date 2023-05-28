@@ -1,0 +1,21 @@
+a.specialDropdown{
+
+    background-color: #0084ff;
+    border-radius: 10px;
+    padding: 7px;
+    color: white;
+    width: fit-content;
+    
+
+}
+
+a.specialDropdown:link { text-decoration: none; }
+
+
+a.specialDropdown:visited { text-decoration: none; }
+
+
+a.specialDropdown:hover { text-decoration: none; }
+
+
+a.specialDropdown:active { text-decoration: none; }

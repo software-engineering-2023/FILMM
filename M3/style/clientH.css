@@ -1,0 +1,49 @@
+#main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#myACC,
+#intACC {
+  margin: 3rem;
+  border-radius: 10px;
+}
+
+#intACC a {
+  color: black;
+}
+
+#settingsACC {
+  margin: 0.8rem;
+}
+
+#settingsACC :hover {
+  cursor: pointer;
+}
+
+#headerACC {
+  display: flex;
+  justify-content: space-between;
+}
+#moneyACC,
+#moneyACC2,
+#checkACC,
+#saveACC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#buttons {
+  margin: 3rem;
+}
+
+#buttons button {
+  width: 20rem;
+  height: 5rem;
+  border: solid black;
+}
+
+#dropdown-menu {
+  color: black;
+}

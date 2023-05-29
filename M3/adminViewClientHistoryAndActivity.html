@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/viewBankAccountTransaction.css" />
-    <title>My History and Activity</title>
+    <title>History and Activity</title>
   </head>
   <body>
         <!--NAVIGATION BAR-->
@@ -64,91 +64,56 @@
           </div>
         </nav>
         <!--END OF NAVIGATION BAR-->
-    <table class="table" style="width:50%; margin-left: 5%;margin-top: 2%; ">
-      <thead>
-        <tr>
-          <th scope="col"></th>
-          <th scope="col">Used For</th>
-          <th scope="col">Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">
-            <div class="form-check">
-              
-              <label class="form-check-label" for="flexCheckIndeterminate">
-                1
-              </label>
-            </div>
-          </th>
-          <td>Created a new Account with<br>Administrator User Access-Level</td>
-          <td>26/5/2023</td>
-        </tr>
-        <tr>
-          <th scope="row">
-            <div class="form-check">
-              
-              <label class="form-check-label" for="flexCheckIndeterminate">
-                2
-              </label>
-            </div>
-          </th>
-          <td>Resolved Technical Issue concerning "John Krasinski"</td>
-          <td>22/5/2023</td>
-        </tr>
-        <tr>
-          <th scope="row">
-            <div class="form-check">
-              
-              <label class="form-check-label" for="flexCheckIndeterminate">
-                3
-              </label>
-            </div>
-          </th>
-          <td>Changed Mariam Abdeljawad's <br>User Access-Level from Standard User
-        to Power User</td>
-          <td>14/5/2023</td>
-        </tr>
-        <tr>
-          <th scope="row">
-            <div class="form-check">
-              
-              <label class="form-check-label" for="flexCheckIndeterminate">
-                4
-              </label>
-            </div>
-          </th>
-          <td>Made an Announcement about Changed Terms <br>
-        and Conditions</td>
-          <td>1/5/2023</td>
-        </tr>
-        <tr>
-          <th scope="row">
-            <div class="form-check">
-              
-              <label class="form-check-label" for="flexCheckIndeterminate">
-                5
-              </label>
-            </div>
-          </th>
-          <td>Blocked User Farah Nagy</td>
-          <td>29/4/2023</td>
-        </tr>
+        <h2 style="padding: 20px;">History and Activity Log</h2>
 
-        <tr>
-          <th scope="row">
-            <div class="form-check">
-              <label class="form-check-label" for="flexCheckIndeterminate">
-                6
-              </label>
-            </div>
-          </th>
-          <td>Fixed Database Backup Failure</td>
-          <td>13/4/2023</td>
-        </tr>
-      </tbody>
-    </table>
+        <table class="table" style="width:50%; margin-left: 5%;margin-top: 2%; ">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Transaction Type</th>
+              <th>Description</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2023-05-01</td>
+              <td>Deposit</td>
+              <td>Initial deposit</td>
+              <td>$500.00</td>
+            </tr>
+            <tr>
+              <td>2023-05-05</td>
+              <td>Withdrawal</td>
+              <td>ATM withdrawal</td>
+              <td>$100.00</td>
+            </tr>
+            <tr>
+              <td>2023-05-07</td>
+              <td>Bill Payment</td>
+              <td>Electricity bill payment</td>
+              <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>2023-05-05</td>
+                <td>Withdrawal</td>
+                <td>From Checking Account</td>
+                <td>$320.00</td>
+              </tr><tr>
+                <td>2023-05-15</td>
+                <td>Bill Payment</td>
+                <td>Rent</td>
+                <td>$55.00</td>
+              </tr><tr>
+                <td>2023-05-05</td>
+                <td>Loan</td>
+                <td>Student Loan</td>
+                <td>$1000.00</td>
+              </tr>
+            <!-- Additional transaction and activity log entries -->
+          </tbody>
+        </table>
+        
     
     <div class="b-example-divider"></div>
   <button onclick="goBack()" style="margin-left: 6%; margin-top: 2%; border-radius: 12px;

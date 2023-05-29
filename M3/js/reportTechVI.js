@@ -7,12 +7,17 @@ const recognition = new SpeechRecognition();
 recognition.interimResults = true;
 
 let p = document.createElement("p");
+let audio = document.getElementById("audio");
+
 document.addEventListener("keyup", (e) => {
   if (e.key === " ") {
     audio.play();
     setTimeout(function () {
       recognition.start();
-    }, 8000);
+    }, 6000);
+  }
+  if (e.key === "Enter") {
+    window.location.href = "blindH.html";
   }
 });
 
@@ -24,27 +29,20 @@ recognition.addEventListener("result", (e) => {
     .join("");
 
   if (text === "view transactions") {
-    window.location.href = "transactionsBC.html";
+    window.location.href = "login.html";
   }
   if (text === "view credit card transactions") {
-    window.location.href = "CCtransactionsBC.html";
+  }
+  if (text === "view notifications") {
   }
   if (
-    text === "report theft" ||
+    text === "report damage" ||
     text === "report damage" ||
     text === "report stolen"
   ) {
-    window.location.href = "reportTheftVI.html";
   }
-  if (
-    text === "report technical issue" ||
-    text === "report technical problem"
-  ) {
-    window.location.href = "reportTechVI.html";
+  if (text === "report technical issue") {
   }
 
-  if (text === "log out" || text === "sign out") {
-    window.location.href = "index.html";
-  }
   p.innerText = text;
 });

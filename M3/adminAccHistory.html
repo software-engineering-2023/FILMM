@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/viewTransactionsC.css" />
+  </head>
+  <body>
+    <!--NAVIGATION BAR-->
+<nav class="navbar navbar-expand-lg bg-primary sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="adminH.html">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="adminAccountDeets.html">My Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="addAccount.html">Add Account</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              User Concerns
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="technicalIssues.html">Technical Issues</a></li>
+              <li><a class="dropdown-item" href="adminCreditCardIssues.html">Credit Card Theft/Loss/Damage</a></li>
+              <li>
+                <a class="dropdown-item" href="userAccApplication.html">User Account Applications</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Logout</a>
+          </li>
+      </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!--END OF NAVIGATION BAR-->
+    <table class="table" style="width:50%; margin-left: 5%;margin-top: 2%; ">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Used For</th>
+          <th scope="col">Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">
+            <div class="form-check">
+              
+              <label class="form-check-label" for="flexCheckIndeterminate">
+                1
+              </label>
+            </div>
+          </th>
+          <td>Created a new Account with<br>Administrator User Access-Level</td>
+          <td>26/5/2023</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <div class="form-check">
+              
+              <label class="form-check-label" for="flexCheckIndeterminate">
+                2
+              </label>
+            </div>
+          </th>
+          <td>Resolved Technical Issue concerning "John Krasinski"</td>
+          <td>22/5/2023</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <div class="form-check">
+              
+              <label class="form-check-label" for="flexCheckIndeterminate">
+                3
+              </label>
+            </div>
+          </th>
+          <td>Changed Mariam Abdeljawad's <br>User Access-Level from Standard User
+        to Power User</td>
+          <td>14/5/2023</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <div class="form-check">
+              
+              <label class="form-check-label" for="flexCheckIndeterminate">
+                4
+              </label>
+            </div>
+          </th>
+          <td>Made an Announcement about Changed Terms <br>
+        and Conditions</td>
+          <td>1/5/2023</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <div class="form-check">
+              
+              <label class="form-check-label" for="flexCheckIndeterminate">
+                5
+              </label>
+            </div>
+          </th>
+          <td>Blocked User Farah Nagy</td>
+          <td>29/4/2023</td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            <div class="form-check">
+              <label class="form-check-label" for="flexCheckIndeterminate">
+                6
+              </label>
+            </div>
+          </th>
+          <td>Fixed Database Backup Failure</td>
+          <td>13/4/2023</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div class="b-example-divider"></div>
+  <button onclick="goBack()" style="margin-left: 6%; margin-top: 2%; border-radius: 12px;
+  border-color:rgba(0, 0, 255, 0.671);">Go Back</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

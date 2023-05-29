@@ -15,7 +15,7 @@
         <!--NAVIGATION BAR-->
         <nav class="navbar navbar-expand-lg bg-primary sticky-top">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="adminH.html">Home</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -30,10 +30,10 @@
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">My Account</a>
+                  <a class="nav-link active" aria-current="page" href="adminAccountDeets.html">My Account</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Add Account</a>
+                  <a class="nav-link" href="addAccount.html">Add Account</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -46,32 +46,13 @@
                     User Concerns
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Technical Issues</a></li>
-                    <li><a class="dropdown-item" href="#">Credit Card Theft/Loss/Damage</a></li>
+                    <li><a class="dropdown-item" href="technicalIssues.html">Technical Issues</a></li>
+                    <li><a class="dropdown-item" href="adminCreditCardIssues.html">Credit Card Theft/Loss/Damage</a></li>
                     <li>
-                      <a class="dropdown-item" href="#">User Account Applications</a>
+                      <a class="dropdown-item" href="userAccApplication.html">User Account Applications</a>
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Notifications
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
             </div>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -118,27 +99,14 @@
           <p>There are <strong> 1502</strong> bank accounts that are currently blocked in FILMM Bank .</p>
         </div>
       </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
-        
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
-       
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
-      </div>
     </div>
   </div>
-
-  <div class="b-example-divider"></div>
-
-  <div class="container px-4 py-5">
-    <div class="b-example-divider"></div>
+    <label for="freeform" style="margin-left:15px; font-size: 30px;">Post an Announcement:</label>
+    <br>
+    <textarea id="freeform" name="freeform" rows="4" cols="50" style="margin-left: 15px;padding-bottom: 50px;">
+    </textarea><br><br>
+      <input type="submit" value="Post" style="margin-left: 15px;">
+    </form>
 
 <div class="container">
   <footer class="py-3 my-4">
